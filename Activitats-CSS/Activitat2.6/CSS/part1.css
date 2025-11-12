@@ -1,0 +1,55 @@
+/*Exercici 1*/
+#main-nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+/*Exercici 2*/
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: pink;
+}
+
+/*Exercici 3*/
+#ingredient-list{
+    list-style-position: inside;
+}
+
+/*Exercici 4*/
+#ingredient-list li{
+    list-style-image: url("/IMG/Citroen.jpg");
+}
+
+/*Exercici 5*/
+#dishes li{
+    list-style-type: lower-alpha;
+}
+#dishes li::marker{
+    /*content: counter(list-item, lower-alpha)") ";*/
+}
+
+/*Exercici 6*/
+a:focus{
+    color: blue;
+}
+
+/*Exercici 7*/
+#social li{
+    display: inline;
+    list-style-type: none;
+    margin: 1%;
+}
+
+/*Exercici 8*/
+#dishes li{
+    list-style-type: none;
+}
+
+#dishes li::before{
+    content: "Plat "counter(list-item, decimal)": ";
+}

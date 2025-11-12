@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activitat 1.8.7 - Coses</title>
+    </head>
+    <body>
+        <h1>Formulari de registre</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Registre</legend>
+            <label for="nom">Nom complet:</label>
+            <input type="text" name="nom" id="nom">
+            <br><br>
+            <label for="e-mail">Correu electrònic:</label>
+            <input type="email" name="e-mail" id="e-mail">
+            <br><br>
+            <label for="pass1">Contrasenya</label>
+            <input type="password" name="password" id="pass1">
+            <br><br>
+            <label for="pass2">Confirmació</label>
+            <input type="password" name="password" id="pass2">
+            <br><br>
+            <input type="button" value="Envia">
+            <input type="button" value="Reset">
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Els meus interessos</legend>
+            <br>
+            <input type="checkbox" name="esports" id="esports">
+            <label for="esports">Esports</label>
+            <br>
+            <input type="checkbox" name="musica" id="musica">
+            <label for="musica">Música</label>
+            <br>
+            <input type="checkbox" name="tecnologia" id="tecnologia">
+            <label for="tecnologia">Tecnologia</label>
+            <br>
+            <input type="checkbox" name="literatura" id="literatura">
+            <label for="Literatura">Literatura</label>
+            <br>
+            <input type="checkbox" name="viatges" id="viatges">
+            <label for="viatges">Viatges</label>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>El meu estil musical preferit</legend>
+            <br>
+            <input type="radio" name="estil_musical" value="Rock">
+            <label for="rock">Rock</label>
+            <br>
+            <input type="radio" name="estil_musical" value="Pop" id="pop">
+            <label for="pop">Pop</label>
+            <br>
+            <input type="radio" name="estil_musical" value="Jazz" id="jazz">
+            <label for="jazz">Jazz</label>
+            <br>
+            <input type="radio" name="estil_musical" value="Clàssica" id="classica">
+            <label for="classica">Clàssica</label>
+            <br>
+            <input type="radio" name="estil_musical" value="Electrònica" id="electronica">
+            <label for="electronica">Electrònica</label>
+            <br>
+            <input type="radio" name="estil_musical" value="Altres" id="altres">
+            <label for="altres">Altres</label>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Informació de contacte</legend>
+            <label for="telefon">Telèfon</label>
+            <input type="tel" id="telefon">
+            <br>
+            <label for="url">Adreça web personal</label>
+            <input type="url" id="url">
+            <br><br>
+            <label>Xarxa Social Preferida</label>
+            <br>
+            <input type="radio" name="xarxa_preferida" value="Facebook" id="facebook">
+            <label for="facebook">Facebook</label>
+            <br>
+            <input type="radio" name="xarxa_preferida" value="Instagram" id="instagram">
+            <label for="instagram">Instagram</label>
+            <br>
+            <input type="radio" name="xarxa_preferida" value="Tiktok" id="tiktok">
+            <label for="tiktok">TikTok</label>
+            <br>
+            <input type="radio" name="xarxa_preferida" value="X" id="x">
+            <label for="x">X</label>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Disponibilitat</legend>
+            <label>Data de naixament:</label>
+            <input type="date">
+            <br>
+            <label>Hora inici i final de contacte:</label>
+            <br>
+            <input type="time">
+            <br>
+            <input type="time">
+            <br>
+            <label>Mes de contacte:</label>
+            <input type="month">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Diversitat</legend>
+            <label>Color preferit:</label>
+            <input type="color">
+            <br>
+            <label>Fotografia:</label>
+            <input type="file" accept="image/jpg, image/png">
+            <br>
+            <label>Puntuació:</label>
+            <input type="number" min="1" max="10" value="5">
+            <br><br>
+            <label>Perfil Social</label>
+            <br>
+            <input type="radio">
+            <label>Facebook</label>
+            <br>
+            <input type="radio">
+            <label>Instagram</label>
+            <br>
+            <input type="radio">
+            <label>TikTok</label>
+            <br>
+            <input type="radio">
+            <label>X</label>
+        </fieldset>
+        <input type="submit" value="Envia">
+        <input type="reset" value="Reset">
+    </form>
+    </body>
+</html>

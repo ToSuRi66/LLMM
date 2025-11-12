@@ -1,0 +1,22 @@
+.contingut{
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2rem;
+  text-indent: 30px;
+  padding: 40px;
+  text-transform: uppercase;
+}
+.cursiva{
+    font-style: italic;
+    text-align: justify;
+}
+
+.inclinat{
+    font-style: oblique;
+    text-align: right;
+}
+
+.centrat{
+    text-align: center;
+}
